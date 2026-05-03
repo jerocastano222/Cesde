@@ -1,7 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<!-- Este es el codigo organizado en el mismo documento-->
+<style>
+   h1
+    {
+      color: crimson;
+    }  
+</style>
 <head>
+    <link rel="stylesheet" href="CSS/estilospropios.css">
+    <link rel="stylesheet" href="CSS/estilosdark.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carros Luxury</title>
@@ -10,8 +18,9 @@
 <body>
   <nav>
     <a href="venta.html">Venta - Autos</a>
-  </nav>   
-  <h1>Bienvenidos a Carros Luxury</h1>
+  </nav> 
+  <!--El codigo CSS en el mismo documento no organizado-->  
+  <h1 style="color: ;">Bienvenidos a Carros Luxury</h1>
   <h2>Compra tu vehiculo con nosotros</h2>
   <p>Nos encargamos de hacer tu sueño de 4 ruedas posible</p>
   <ul>
@@ -73,7 +82,6 @@
     <input type="text" name="Marca_Autos" id="Marca_Autos">
 
      <br>
-
      <label for="Mejor_Vehiculo">Mejor Vehiculo
      </label>
      <label>Koneisegg</label><input type="radio" name="Bugatti" id="">
@@ -83,11 +91,40 @@
 
      <br>
      <label for="Vel_Final">Velocidad Final</label>
-     Velocidad: <input type="checkbox" id="">
+     410km: <input type="checkbox" id="">
+     305km: <input type="checkbox" id="">
+     380km: <input type="checkbox" id="">
+     300km: <input type="checkbox" id="">
+     <br>
+     <label for="Mejor_Pilot">Mejor Piloto</label>
+     <input type="text" name="Mejor_Pilot">
      
+     <br>
+     <label for="Mejor_Circuit">Mejor Circuito</label>
+     <input type="text" name="Mejor_Circuit">
 
-     
-   </form>
+     <br>
+     <label for="Correo">Correo Electronico</label>
+     <input type="email" name="Correo_Usuario" id="">
+
+     <br>
+     <label for="Correo">Carreras ganadas</label>
+     <select name="CarrerasGanadas" id="">
+     <option>--SELECT--</option>
+     <option value="1">2</option>
+     <option value="2">25</option>
+     <option value="3">12</option>
+     <option value="4">18</option>
+     </select>
+      <br>
+      <label for="">Foto:</label>
+      <input type="file" name="fotoAuto" id="">
+      <br>
+      <label for="contrasena">Cotraseña</label>  
+      <input type="password" name="contrasena" id="" required>  
+      <br>
+      <input type="submit" value="Guardar Informacion"> 
+     </form>
 </section>
 
 
