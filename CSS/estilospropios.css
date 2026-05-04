@@ -20,4 +20,18 @@ h1
       color: #F23030;   
       text-decoration:none;
       }
+      #imagenes-total
+      {
+        display: flex;
+        padding-top: 50px;
+       }
+       .foto
+       {
+        width: 23%;
+        text-align: center;
+       }
+       .foto-int
+       {
+        width: 90%;
+      }
 
