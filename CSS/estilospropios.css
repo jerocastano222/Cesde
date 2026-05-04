@@ -2,3 +2,22 @@ h1
     {
       color: crimson;
     } 
+     #Menu
+    {
+        background-color: #F29F05;
+        padding:15px;  
+        box-shadow:5px 8px 7px 5px #ff7b00;
+     
+    } 
+    #Menu li {
+      
+      list-style:none;
+      display: inline-block;
+      font: bold 20px;
+      padding:50px;
+      }
+      a{ 
+      color: #F23030;   
+      text-decoration:none;
+      }
+
